@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Natalee Hudson - Reiki Healing Chakras Mentoring Oracle Readings</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/core.css">
+        <link rel="stylesheet" href="styles/keyboard-focus.css">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <!-- Google Fonts: Instrument Serif and Newsreader -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- ============================================ -->
+        <!--                 Navigation                   -->
+        <!-- ============================================ -->
+        <header id="cs-navigation">
+            <div class="cs-container">
+                <!--Nav Logo-->
+                <!--Logo is turned white in the css with a filter on dark mode-->
+                <a href="" class="cs-logo" aria-label="back to home">
+                    <img src="images/logo.svg" alt="logo" width="310" height="39" aria-hidden="true" decoding="async">
+                </a>
+                <!--Navigation List-->
+                <nav class="cs-nav" role="navigation">
+                    <!--Mobile Nav Toggle-->
+                    <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                    </button>
+                    <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                    <div class="cs-ul-wrapper">
+                        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link cs-active">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    About
+                                </a>
+                            </li>
+                            <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                            <!-- <li class="cs-li cs-dropdown" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false"> -->
+                            <li class="cs-li cs-dropdown">
+                                <!-- <span class="cs-li-link"> -->
+                                <a href="#" class="cs-li-link" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Services
+                                    <svg class="cs-drop-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 32 32" aria-hidden="true">
+                                        <title>Dropdown Menu Icon</title>
+                                        <path fill="var(--primaryLight)" d="M26.925 11.613A1 1 0 0 0 26 11H6a1 1 0 0 0-.925.613 1.05 1.05 0 0 0 .213 1.1l10 10a1.025 1.025 0 0 0 1.424 0l10-10a1.05 1.05 0 0 0 .213-1.1z"/>
+                                    </svg>
+                                </a>
+                                
+                                <ul class="cs-drop-ul" role="menu">
+                                    <li class="cs-drop-li" role="none">
+                                        <a href="" class="cs-li-link cs-drop-link" role="menuitem">Massage Therapy</a>
+                                    </li>
+                                    <li class="cs-drop-li" role="none">
+                                        <a href="" class="cs-li-link cs-drop-link" role="menuitem">Reiki Healing</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    Blog
+                                </a>
+                            </li>
+                            <!-- <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    Contact
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </nav>
+                <div class="cs-contact-group">
+                    <a href="tel:+61 409 600 479" class="cs-phone">
+                        <!-- Converted to Inline SVG -->
+                        <svg class="cs-phone-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" role="img" alt="Phone Icon">
+                            <path fill="#e7dfbd" d="M19.44 13C19.22 13 18.99 12.93 18.77 12.88C18.3245 12.7818 17.8867 12.6515 17.46 12.49C16.9961 12.3212 16.4861 12.33 16.0283 12.5146C15.5705 12.6992 15.1971 13.0466 14.98 13.49L14.76 13.94C13.786 13.3982 12.891 12.7252 12.1 11.94C11.3148 11.149 10.6418 10.254 10.1 9.27999L10.52 8.99999C10.9634 8.78291 11.3108 8.40952 11.4954 7.95168C11.68 7.49384 11.6888 6.9839 11.52 6.51999C11.3612 6.09241 11.2309 5.65479 11.13 5.20999C11.08 4.98999 11.04 4.75999 11.01 4.52999C10.8886 3.82561 10.5196 3.18773 9.96962 2.73123C9.41962 2.27473 8.7247 2.0296 8.01 2.03999H5.01C4.57903 2.03594 4.15225 2.1248 3.75871 2.30052C3.36517 2.47624 3.01411 2.73469 2.72943 3.05827C2.44475 3.38186 2.23314 3.76298 2.10899 4.1757C1.98484 4.58842 1.95108 5.02305 2.01 5.44999C2.54274 9.63937 4.45603 13.5319 7.44765 16.5126C10.4393 19.4934 14.3387 21.3925 18.53 21.91H18.91C19.6474 21.9111 20.3594 21.6405 20.91 21.15C21.2264 20.867 21.4791 20.5202 21.6515 20.1323C21.8239 19.7444 21.912 19.3244 21.91 18.9V15.9C21.8978 15.2054 21.6448 14.5365 21.1943 14.0077C20.7439 13.4788 20.1238 13.1226 19.44 13V13ZM19.94 19C19.9398 19.142 19.9094 19.2823 19.8508 19.4116C19.7922 19.5409 19.7067 19.6563 19.6 19.75C19.4886 19.847 19.358 19.9194 19.2167 19.9625C19.0754 20.0056 18.9266 20.0183 18.78 20C15.0349 19.5198 11.5562 17.8065 8.89272 15.1303C6.2292 12.4541 4.53241 8.96733 4.07 5.21999C4.05409 5.07351 4.06803 4.92532 4.111 4.78438C4.15397 4.64344 4.22507 4.51268 4.32 4.39999C4.41371 4.29332 4.52906 4.20783 4.65838 4.14921C4.7877 4.09058 4.92802 4.06017 5.07 4.05999H8.07C8.30255 4.05482 8.52962 4.13087 8.71215 4.27506C8.89467 4.41925 9.02121 4.62256 9.07 4.84999C9.11 5.12332 9.16 5.39332 9.22 5.65999C9.33552 6.18713 9.48926 6.70517 9.68 7.20999L8.28 7.85999C8.1603 7.91491 8.05262 7.99294 7.96316 8.08959C7.87369 8.18624 7.8042 8.2996 7.75867 8.42318C7.71314 8.54677 7.69247 8.67812 7.69785 8.80971C7.70323 8.9413 7.73454 9.07054 7.79 9.18999C9.2292 12.2727 11.7072 14.7508 14.79 16.19C15.0335 16.29 15.3065 16.29 15.55 16.19C15.6747 16.1454 15.7893 16.0764 15.8872 15.9872C15.985 15.8979 16.0642 15.7901 16.12 15.67L16.74 14.27C17.257 14.4549 17.7846 14.6085 18.32 14.73C18.5867 14.79 18.8567 14.84 19.13 14.88C19.3574 14.9288 19.5607 15.0553 19.7049 15.2378C19.8491 15.4204 19.9252 15.6474 19.92 15.88L19.94 19Z"/>
+                        </svg>
+                        <!-- <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="logo" width="24" height="24" aria-hidden="true" decoding="async"> -->
+                        +61 409 600 479
+                    </a>
+                    <a href="#cs-booking" class="jump-to-booking cs-button-transparent cs-button" role="button">
+                        Book Now
+                    </a>
+                </div>
+                <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+                <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+                <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+                </button> -->
+            </div>
+        </header>
+        <!-- ============================================ -->
+        <!--                    Hero                      -->
+        <!-- ============================================ -->
+        <section id="hero-229">
+            <div class="cs-container">
+                <div class="cs-flex-group">
+                    <span class="cs-topper">Massage Therapist Natalee Hudson</span>
+                    <h1 class="cs-title">Heal Your Mind, Body and Soul
+                    </h1>
+                    <p class="cs-text">
+                        Rejuvenate from within through holistic practices designed to restore balance, promote wellness, and nourish your mind, body, and soul.
+                    </p>
+                    <div class="cs-button-group">
+                        <a href="" class="cs-button-transparent cs-button">
+                            <!-- <img class="cs-img" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg" alt="play icon" width="17" height="17"> -->
+                            <svg class="cs-img" loading="lazy" decoding="async" width="17" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                                <path d="M8.99996 0.666668C4.39996 0.666668 0.666626 4.4 0.666626 9C0.666626 13.6 4.39996 17.3333 8.99996 17.3333C13.6 17.3333 17.3333 13.6 17.3333 9C17.3333 4.4 13.6 0.666668 8.99996 0.666668ZM7.33329 11.9167V6.08333C7.33329 5.74167 7.72496 5.54167 7.99996 5.75L11.8916 8.66667C12.1166 8.83334 12.1166 9.16667 11.8916 9.33333L7.99996 12.25C7.72496 12.4583 7.33329 12.2583 7.33329 11.9167Z" fill="var(--primary)"/>
+                            </svg>
+                            Explore Services
+                        </a>
+                        <a href="#cs-booking" class="jump-to-booking cs-button-transparent cs-button" role="button">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Background Image -->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="">
+                <source media="(min-width: 601px)" srcset="images/hero-massage.jpg">
+                <img loading="lazy" decoding="async" src="images/hero-massage.jpg" alt="hero-massage" width="2250" height="1500" aria-hidden="true">
+            </picture>
+        </section>
+        <!-- Right Aligned (Intro) (TO BE MODIFIED LATER!!) -->
+        <!-- ============================================ -->
+        <!--                    Hero                      -->
+        <!-- ============================================ -->
+        <section id="hero-856">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span class="cs-topper">Modern and Professional</span>
+                    <h1 class="cs-title">
+                        Reconnect.<br>Recharge.<br>Realign.
+                    </h1>
+                    <p class="cs-text">
+                        Feeling drained, disconnected, or stuck in the daily grind — even after a full night's sleep?<br>
+                        I'm Natalee, and I help women restore balance, peace, and purpose in their lives. Through healing touch and intuitive guidance, I support you in reconnecting with your inner wisdom, values, and passions—so you can feel empowered, confident, and deeply connected again.<br>
+                        <em>It's time to return to yourself.</em><br>
+                        To love what you do, feel at ease in your body, and build the fulfilling life and relationships you deserve.
+
+                    </p>
+                    <a href="" class="cs-button-transparent" role="button">Schedule An Appointment</a>
+                </div>
+                <!--Hero Image-->
+                <picture class="cs-picture">
+
+                    <!--Desktop-->
+                    <source media="(min-width: 1024px)" srcset="images/intro-woman-in-lotus.jpg">
+                    <img aria-hidden="true" decoding="async" src="images/intro-woman-in-lotus.jpg" alt="therapy" width="570" height="701">
+                </picture>
+            </div>
+        </section>
+        <!-- ============================================ -->
+        <!--                  Services                    -->
+        <!-- ============================================ -->
+        <section id="services-690">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <div class="cs-flex-group">
+                        <span class="cs-topper">Our Services</span>
+                        <h2 class="cs-title">I Provide Services to <span class="cs-color"><br>Enhance Your Beauty</span></h2>
+                    </div>
+                    <p class="cs-text">
+                        I offer professional beauty services designed to enhance your natural features and boost your confidence. From skincare treatments to personalized makeup and grooming, my goal is to help you look and feel your best every day.
+                    </p>
+                </div>
+                <ul class="cs-card-group">
+                    <li class="cs-item">
+                        <a href="" class="cs-link">
+                            <picture class="cs-picture">
+                                <img class="cs-icon" src="images/reiki-healing-small-icon-homepage-transparent.svg" loading="lazy" decoding="async" alt="massage icon" width="32" height="32" aria-hidden="true">
+                            </picture>
+                            <h3 class="cs-h3">Massage Therapy</h3>
+                            <p class="cs-item-text">
+                                Relax, rejuvenate, and relieve tension with professional massage therapy tailored to reduce stress, improve circulation, and enhance well-being.
+                            </p>
+                        </a>
+                    </li>
+                    <li class="cs-item">
+                        <a href="" class="cs-link">
+                            <picture class="cs-picture">
+                                <img class="cs-icon" src="images/massage-head-small-icon-homepage-transparent.svg" loading="lazy" decoding="async" alt="crystal and reiki healing icon" width="32" height="32">
+                            </picture>
+                            <h3 class="cs-h3">Crystal & Reiki Healing</h3>
+                            <p class="cs-item-text">
+                                Restore balance and harmony with Crystal & Reiki Healing, using energy work and crystals to promote deep relaxation and holistic healing.
+                            </p>
+                        </a>
+                    </li>
+                    <li class="cs-item">
+                        <a href="" class="cs-link">
+                            <picture class="cs-picture">
+                                <img class="cs-icon" src="images/massage-lying-small-icon-homepage-transparent.svg" loading="lazy" decoding="async" alt="micro needling icon" width="32" height="32" aria-hidden="true">
+                            </picture>
+                            <h3 class="cs-h3">Micro Needling</h3>
+                            <p class="cs-item-text">
+                                Revitalize your skin with Micro Needling—a collagen-boosting treatment that reduces fine lines, scars, and improves texture for a smoother, youthful complexion.
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ============================================ -->
+        <!--                Booking Panel                 -->
+        <!-- ============================================ -->
+        <section id="cs-booking" class="cs-booking-section" aria-labelledby="booking-title">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span class="cs-topper">Online Booking</span>
+                    <h2 class="cs-title" id="booking-title">Book Your Appointment</h2>
+                    <p class="cs-text">
+                        Select your preferred date, time, and service to schedule your next appointment. Our online booking system makes it easy to find a time that works for you.
+                    </p>
+                </div>
+                <div class="cs-booking-container">
+                    <!-- Calendar and time slots picker -->
+                    <div class="cs-booking-calendar">
+                        <div class="cs-section-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="cs-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            <h3 class="cs-section-heading">Select Date & Time</h3>
+                        </div>
+                        
+                        <div class="cs-calendar-wrapper">
+                            <div class="cs-calendar-header">
+                                <button id="prev-month" class="cs-calendar-nav-btn" aria-label="Previous month">&lt;</button>
+                                <div id="current-month" class="cs-current-month">May 2025</div>
+                                <button id="next-month" class="cs-calendar-nav-btn" aria-label="Next month">&gt;</button>
+                            </div>
+                            <div class="cs-calendar-weekdays">
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                                <div>Sun</div>
+                            </div>
+                            <div id="calendar-days" class="cs-calendar-days"></div>
+                        </div>
+                        
+                        <div class="cs-time-slots-container">
+                            <h4 id="time-slots-date" class="cs-time-slots-heading">Available Times for <span>Select a date</span></h4>
+                            <div id="time-slots" class="cs-time-slots">
+                                <p class="cs-no-times-message">Please select a date to see available times</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service picker section -->
+                    <div class="cs-booking-services">
+                        <div class="cs-section-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="cs-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                            </svg>
+                            <h3 class="cs-section-heading">Select Service</h3>
+                        </div>
+                        
+                        <div class="cs-services-list">
+                            <div class="cs-service-option" data-service="massageTherapy" data-base-price="75" tabindex="0" role="button" aria-pressed="false">
+                                <h4 class="cs-service-title">Massage Therapy</h4>
+                                <p class="cs-service-description">Relieves muscle tension, improves circulation, and promotes deep relaxation and overall well-being.</p>
+                            </div>
+                            <div class="cs-service-option" data-service="crystalReikiHealing" data-base-price="90" tabindex="0" role="button" aria-pressed="false">
+                                <h4 class="cs-service-title">Crystal & Reiki Healing</h4>
+                                <p class="cs-service-description">Balances energy, clears blockages, and restores harmony using crystals and gentle Reiki touch.</p>
+                            </div>
+                            <div class="cs-service-option" data-service="soundHealing" data-base-price="110" tabindex="0" role="button" aria-pressed="false">
+                                <h4 class="cs-service-title">Sound Healing</h4>
+                                <p class="cs-service-description">Uses vibrational frequencies from instruments to calm the mind and align the body's energy.</p>
+                            </div>
+                            <div class="cs-service-option" data-service="aromatherapy" data-base-price="95" tabindex="0" role="button" aria-pressed="false">
+                                <h4 class="cs-service-title">Aromatherapy Session</h4>
+                                <p class="cs-service-description">Involves essential oils to enhance mood, reduce stress, and support emotional and physical wellness.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="cs-duration-section">
+                            <h4 class="cs-duration-heading">Session Duration</h4>
+                            <div class="cs-duration-options">
+                                <div class="cs-duration-option" data-duration="30" data-price-factor="0.6" tabindex="0" role="button" aria-pressed="false">30 min</div>
+                                <div class="cs-duration-option" data-duration="60" data-price-factor="1" tabindex="0" role="button" aria-pressed="false">60 min</div>
+                                <div class="cs-duration-option" data-duration="90" data-price-factor="1.5" tabindex="0" role="button" aria-pressed="false">90 min</div>
+                                <div class="cs-duration-option" data-duration="120" data-price-factor="2" tabindex="0" role="button" aria-pressed="false">120 min</div>
+                            </div>
+                        </div>
+                        
+                        <div class="cs-price-section">
+                            <div class="cs-price-box">
+                                <div class="cs-price-label">Total Price:</div>
+                                <div class="cs-price-amount" id="total-price">$0</div>
+                            </div>
+                            <button id="book-button" class="cs-button-transparent" disabled>Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================ -->
+        <!--                   Reviews                    -->
+        <!-- ============================================ -->
+        <section id="reviews-354">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span class="cs-topper">Testimonials</span>
+                    <h2 class="cs-title">Trusted by Thousand of People & Companies</h2>
+                    <p class="cs-text">
+                        Trusted by thousands of satisfied clients and reputable companies, my massage services deliver consistent, professional care tailored to your needs—experience relaxation you can rely on.
+                    </p>
+                </div>
+                <ul class="cs-card-group">
+                    <li class="cs-item">
+                        <img class="cs-quote" alt="quote-icon" src="images/quote.svg" decoding="async" width="40" height="33">
+                        <p class="cs-review">
+                            I had a wonderful Reading from Natalee via Zoom.Natalee is very intuitive, empathetic and understanding.Natalee has a gift to help you achieve your highest outcomes.I highly recommend Natalee for readings. 
+                        </p>
+                        <span class="cs-name">Yvette Penny</span>
+                        <span class="cs-job">Satisfied Customer</span>
+                    </li>
+                    <li class="cs-item">
+                        <img class="cs-quote" alt="quote-icon" src="images/quote.svg" decoding="async" width="40" height="33">
+                        <p class="cs-review">
+                            Nat has a beautiful energy about her, so warm and inviting. She made me feel very welcome and supported. My remedial massage was divine and Nat was very informative of the process for both the massage and the reiki sessions. I felt physically better as if ...
+                        </p>
+                        <span class="cs-name">Lesley Einersen</span>
+                        <span class="cs-job">Satisfied Customer</span>
+                    </li>
+                </ul>
+                <div class="cs-button-wrapper">
+                    <a href="#" class="cs-button-transparent">See All Reviews</a>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================ -->
+        <!--                   Footer                     -->
+        <!-- ============================================ -->
+        <footer id="cs-footer-308">
+            <div class="cs-container">
+                <!-- Logo Group -->
+                <div class="cs-logo-group">
+                    <a aria-label="go back to home" class="cs-logo" href="">
+                        <!-- Remove the light class if you don't need the dark logo -->
+                        <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/logo.svg" alt="logo" width="240" height="32">
+                    </a>
+                    <div class="cs-social">
+                        <a class="cs-social-link" aria-label="visit google profile" href="">
+                            <svg class="cs-social-img" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 210 210" aria-hidden="true" focusable="false">
+                                <path d="M0 105C0 47.103 47.103 0 105 0c23.383 0 45.515 7.523 64.004 21.756l-24.4 31.696C133.172 44.652 119.477 40 105 40c-35.841 0-65 29.159-65 65s29.159 65 65 65c28.867 0 53.398-18.913 61.852-45H105V85h105v20c0 57.897-47.103 105-105 105S0 162.897 0 105z" fill="#fff"/>
+                            </svg>
+                        </a>
+                        <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                            <svg class="cs-social-img" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 155.139 155.139" aria-hidden="true" focusable="false">
+                                <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" fill="#fff"/>
+                            </svg>
+                        </a>
+                        <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                            <svg class="cs-social-img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 511 511.9" aria-hidden="true" focusable="false">
+                                <g fill="#fff">
+                                    <path d="M510.95 150.5c-1.2-27.2-5.598-45.898-11.9-62.102-6.5-17.199-16.5-32.597-29.6-45.398-12.802-13-28.302-23.102-45.302-29.5-16.296-6.3-34.898-10.7-62.097-11.898C334.648.3 325.949 0 256.449 0s-78.199.3-105.5 1.5c-27.199 1.2-45.898 5.602-62.097 11.898-17.204 6.5-32.602 16.5-45.403 29.602-13 12.8-23.097 28.3-29.5 45.3-6.3 16.302-10.699 34.9-11.898 62.098C.75 177.801.449 186.5.449 256s.301 78.2 1.5 105.5c1.2 27.2 5.602 45.898 11.903 62.102 6.5 17.199 16.597 32.597 29.597 45.398 12.801 13 28.301 23.102 45.301 29.5 16.3 6.3 34.898 10.7 62.102 11.898 27.296 1.204 36 1.5 105.5 1.5s78.199-.296 105.5-1.5c27.199-1.199 45.898-5.597 62.097-11.898a130.934 130.934 0 0 0 74.903-74.898c6.296-16.301 10.699-34.903 11.898-62.102 1.2-27.3 1.5-36 1.5-105.5s-.102-78.2-1.3-105.5zm-46.098 209c-1.102 25-5.301 38.5-8.801 47.5-8.602 22.3-26.301 40-48.602 48.602-9 3.5-22.597 7.699-47.5 8.796-27 1.204-35.097 1.5-103.398 1.5s-76.5-.296-103.403-1.5c-25-1.097-38.5-5.296-47.5-8.796C94.551 451.5 84.45 445 76.25 436.5c-8.5-8.3-15-18.3-19.102-29.398-3.5-9-7.699-22.602-8.796-47.5-1.204-27-1.5-35.102-1.5-103.403s.296-76.5 1.5-103.398c1.097-25 5.296-38.5 8.796-47.5C61.25 94.199 67.75 84.1 76.352 75.898c8.296-8.5 18.296-15 29.398-19.097 9-3.5 22.602-7.7 47.5-8.801 27-1.2 35.102-1.5 103.398-1.5 68.403 0 76.5.3 103.403 1.5 25 1.102 38.5 5.3 47.5 8.8 11.097 4.098 21.199 10.598 29.398 19.098 8.5 8.301 15 18.301 19.102 29.403 3.5 9 7.699 22.597 8.8 47.5 1.2 27 1.5 35.097 1.5 103.398s-.3 76.301-1.5 103.301z"/>
+                                    <path d="M256.45 124.5c-72.598 0-131.5 58.898-131.5 131.5s58.902 131.5 131.5 131.5c72.6 0 131.5-58.898 131.5-131.5s-58.9-131.5-131.5-131.5zm0 216.8c-47.098 0-85.302-38.198-85.302-85.3s38.204-85.3 85.301-85.3c47.102 0 85.301 38.198 85.301 85.3s-38.2 85.3-85.3 85.3zM423.852 119.3c0 16.954-13.747 30.7-30.704 30.7-16.953 0-30.699-13.746-30.699-30.7 0-16.956 13.746-30.698 30.7-30.698 16.956 0 30.703 13.742 30.703 30.699z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section-group">
+                    <!-- Links -->
+                    <ul class="cs-nav">
+                        <li class="cs-nav-li">
+                            <span class="cs-header">Sitemap</span>
+                        </li>
+                        <li class="cs-nav-li">
+                            <a class="cs-nav-link" href="">About</a>
+                        </li>
+                        <li class="cs-nav-li">
+                            <a class="cs-nav-link" href="">Services</a>
+                        </li>
+                        <li class="cs-nav-li">
+                            <a class="cs-nav-link" href="">Blog</a>
+                        </li>
+                        <!-- <li class="cs-nav-li">
+                            <a class="cs-nav-link" href="">Contact</a>
+                        </li> -->
+                    </ul>
+                    <!-- Contact Info -->
+                    <ul class="cs-nav">
+                        <li class="cs-nav-li">
+                            <span class="cs-header">Contact</span>
+                        </li>
+                        <li class="cs-nav-li">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/phone-stroke.svg" alt="phone" width="24" height="24">
+                            <a class="cs-nav-link cs-phone" href="tel: +61 409 600 479">0409 600 479</a>
+                        </li>
+                        <li class="cs-nav-li">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/email-stroke.svg" alt="email" width="24" height="24">
+                            <a class="cs-nav-link cs-email" href="mailto:contact@nataleehudson.com">contact@nataleehudson.com</a>
+                        </li>
+                        <li class="cs-nav-li">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/pin-stroke.svg" alt="pin" width="24" height="24">
+                            <a class="cs-nav-link cs-address" href="" target="_blank" rel="noopener">
+                                181 Carolyn Way, Maiden Gully, VIC 3551
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="cs-nav">
+                        <li class="cs-nav-li">
+                            <span class="cs-header">Subscribe</span>
+                        </li>
+                        <li class="cs-nav-li">
+                            <form class="cs-subscribe-form" action="#" method="POST">
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    class="cs-subscribe-input" 
+                                    name="email" 
+                                    autocomplete="email" 
+                                    placeholder="Your email address" 
+                                    required>
+                                <button type="submit" class="cs-button-transparent">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cs-bottom">
+                <span class="cs-copyright">© Copyright 2025 - <a class="cs-copyright-link" href="">Chenhao Liu</a></span>
+            </div>
+        </footer>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

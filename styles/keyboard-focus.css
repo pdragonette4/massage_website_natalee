@@ -1,0 +1,226 @@
+/* Keyboard focus styles to simulate hover effects */
+
+/* Top-level menu items */
+#cs-navigation .cs-li-link:focus-visible {
+    color: var(--primary);
+    outline: none;
+}
+
+/* Dropdown menu */
+#cs-navigation .cs-dropdown > .cs-li-link:focus-visible {
+    outline: none;
+}
+
+#cs-navigation .cs-dropdown > .cs-li-link:focus-visible + .cs-drop-ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+#cs-navigation .cs-dropdown > .cs-li-link:focus-visible + .cs-drop-ul .cs-drop-li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#cs-navigation .cs-dropdown > .cs-li-link:focus-visible .cs-drop-icon path {
+    fill: var(--primary);
+}
+
+/* Dropdown menu items */
+#cs-navigation .cs-li-link.cs-drop-link:focus-visible {
+    color: var(--headerColor);
+    background-color: var(--primary);
+    outline: none;
+}
+
+/* Button focus styles */
+#cs-navigation .cs-button-transparent:focus-visible {
+    color: var(--headerColor);
+    border: 1px solid var(--primary);
+    outline: none;
+}
+
+#cs-navigation .cs-button-transparent:focus-visible:before {
+    transform: scaleX(1);
+}
+
+/* Add a keyboard-focus class that will be toggled via JavaScript */
+#cs-navigation .cs-li-link.keyboard-focus {
+    color: var(--primary);
+}
+
+#cs-navigation .cs-dropdown.keyboard-focus .cs-drop-ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+#cs-navigation .cs-dropdown.keyboard-focus .cs-drop-li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#cs-navigation .cs-dropdown.keyboard-focus .cs-drop-icon path {
+    fill: var(--primary);
+}
+
+#cs-navigation .cs-li-link.cs-drop-link.keyboard-focus {
+    color: var(--headerColor);
+    background-color: var(--primary);
+}
+
+#cs-navigation .cs-button-transparent.keyboard-focus {
+    color: var(--headerColor);
+    border: 1px solid var(--primary);
+}
+
+#cs-navigation .cs-button-transparent.keyboard-focus:before {
+    transform: scaleX(1);
+}
+
+#hero-229 .cs-button-transparent:focus-visible {
+    color: var(--headerColor);
+    border: 1px solid var(--primary);
+    outline: none;
+}
+
+#hero-229 .cs-button-transparent:focus-visible:before {
+    transform: scaleX(1);
+}
+
+#hero-229 .cs-button-transparent.keyboard-focus {
+    color: var(--headerColor);
+    border: 1px solid var(--primary);
+}
+
+#hero-229 .cs-button-transparent.keyboard-focus:before {
+    transform: scaleX(1);
+}
+
+/* Hero 856 Button */
+
+#hero-856 .cs-button-transparent:focus-visible {
+    color: var(--headerColor);
+    border: 1px solid var(--primaryOri);
+    outline: none;
+}
+
+#hero-856 .cs-button-transparent:focus-visible:before {
+    transform: scaleX(1);
+}
+
+#hero-856 .cs-button-transparent.keyboard-focus {
+    color: var(--headerColor);
+    border: 1px solid var(--primary);
+}
+
+#hero-856 .cs-button-transparent.keyboard-focus:before {
+    transform: scaleX(1);
+}
+
+/* Reviews 354 Button */
+
+#reviews-354 .cs-button-transparent:focus-visible {
+    color: var(--primaryOriginal);
+    border: 1px solid var(--secondary);
+    outline: none;
+}
+
+#reviews-354 .cs-button-transparent:focus-visible:before {
+    transform: scaleX(1);
+}
+
+#reviews-354 .cs-button-transparent.keyboard-focus {
+    color: var(--primaryOriginal);
+    border: 1px solid var(--secondary);
+}
+
+#reviews-354 .cs-button-transparent.keyboard-focus:before {
+    transform: scaleX(1);
+}
+
+/* Booking section keyboard focus styles */
+
+#cs-footer-308 .cs-button-transparent:focus-visible {
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    outline: none;
+}
+
+#cs-footer-308 .cs-button-transparent:focus-visible:before {
+    transform: scaleX(1);
+}
+
+#cs-footer-308 .cs-button-transparent.keyboard-focus {
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+#cs-footer-308 .cs-button-transparent.keyboard-focus:before {
+    transform: scaleX(1);
+}
+
+/* Calendar date focus */
+.cs-calendar-day:not(.cs-calendar-day.cs-selected):focus-visible {
+    background-color: var(--primary);
+    color: var(--headerColor);
+    outline: none;
+}
+
+/* Time slot focus */
+.cs-time-slot:not(.cs-time-slot.active):focus-visible {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--headerColor);
+    outline: none;
+}
+
+/* Service option focus */
+.cs-service-option:not(.cs-service-option.active):focus-visible {
+    background-color: var(--primary);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+/* Duration option focus */
+.cs-duration-option:not(.cs-duration-option.active):focus-visible {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--headerColor);
+    outline: none;
+}
+
+/* Book button focus */
+#book-button:focus-visible {
+    color: var(--primary);
+    outline: none;
+}
+
+#book-button:focus-visible:before {
+    transform: scaleX(1);
+}
+
+#book-button:disabled {
+    pointer-events: none;
+    border: 1px solid #604e397d;
+    color: #604e397d;
+}
+
+#book-button {
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    font-family: 'Newsreader', serif;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+#book-button:before {
+    background: var(--secondary);
+}
+
+#book-button:hover {
+    color: var(--primaryOriginal);
+    border: 1px solid var(--secondary);
+}
